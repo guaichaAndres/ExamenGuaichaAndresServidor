@@ -23,14 +23,14 @@
     xsi:schemaLocation="http://www.jboss.org/ironjacamar/schema http://docs.jboss.org/ironjacamar/schema/datasources_1_0.xsd">
     <!-- The datasource is bound into JNDI at this location. We reference 
         this in META-INF/persistence.xml -->
-    <datasource jndi-name="java:jboss/datasources/proyectoFinalDS"
-        pool-name="proyectoFinalDS" enabled="true"
+    <datasource jndi-name="java:jboss/datasources/examenDS"
+        pool-name="examenDS" enabled="true"
         use-java-context="true">
-   <connection-url>jdbc:postgresql://localhost:5432/ProyectoFinal</connection-url> 
+   <connection-url>jdbc:postgresql://localhost:5432/examen</connection-url> 
         <driver>postgresql-driver</driver>
         <security>
-            <user-name>proyectoFinal</user-name>
-            <password>cuenca</password>
+            <user-name>examen</user-name>
+            <password>examen</password>
         </security>
     </datasource>
 </datasources>
