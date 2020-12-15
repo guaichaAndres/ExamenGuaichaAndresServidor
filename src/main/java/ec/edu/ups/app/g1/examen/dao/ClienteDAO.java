@@ -1,12 +1,14 @@
 package ec.edu.ups.app.g1.examen.dao;
 import java.util.List;
 import javax.ejb.Stateless;
+import javax.inject.Inject;
 import javax.persistence.EntityManager;
 import javax.persistence.Query;
 import ec.edu.ups.app.g1.examen.modelo.Cliente;
 
 @Stateless
 public class ClienteDAO {
+	@Inject
 	private EntityManager em;
 	
 	public ClienteDAO(){
